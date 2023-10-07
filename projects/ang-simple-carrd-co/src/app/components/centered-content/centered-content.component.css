@@ -1,0 +1,11 @@
+/* centered-content.component.css */
+:host {
+    background-color: rgb(147, 230, 255);
+    width: 80%;
+    height: 80%;
+    max-width: 1200px;
+    max-height: 800px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px; /* You can adjust this value */
+}

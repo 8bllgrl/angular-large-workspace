@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: rgb(37, 37, 37);
+  }
+
+  .cdk-overlay-container {
+    z-index: 10000;  /* This is a high value to ensure it's on top of other elements. Adjust as necessary. */
+}
+.cdk-overlay-dark-backdrop {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.6;  /* Adjust for desired transparency */
+    background-color: black;  /* Or another color if you prefer */
+}
+
+.full-screen-modal .mat-dialog-container {
+    padding: 0;
+    max-width: none;
+    max-height: none;
+    width: 100%;
+    height: 100%;
+}
+.full-screen-modal .cdk-overlay-pane {
+    z-index: 10000;
+}

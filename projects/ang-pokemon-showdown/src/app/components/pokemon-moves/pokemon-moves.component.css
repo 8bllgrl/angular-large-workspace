@@ -1,0 +1,39 @@
+/* .pokemon-moves {
+    display: flex;
+    flex-direction: column;
+}
+
+.move {
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 150px;
+    margin-left: 5px;
+}
+
+
+.moves-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.move-item {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+} */
+
+.pokemon-moves {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .move {
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    width: 150px;
+    margin-left: 5px;
+  }
+  

@@ -1,0 +1,18 @@
+<div class="carousel-container">
+    <button (click)="previousSlide()" class="carousel-btn previous">«</button>
+    
+    <div class="carousel-main">
+      <img [src]="items[currentSlide]" alt="Main Carousel Image">
+    </div>
+  
+    <button (click)="nextSlide()" class="carousel-btn next">»</button>
+  
+    <div class="carousel-thumbnails">
+      <img *ngFor="let item of items; let idx = index" 
+           [src]="item" 
+           [class.active]="idx === currentSlide"
+           (click)="setCurrentSlide(idx)"
+           alt="Thumbnail Image">
+    </div>
+  </div>
+  

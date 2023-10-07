@@ -1,0 +1,11 @@
+.categories-container {
+    display: flex;
+    justify-content: center;
+  }
+  .dual-example{
+    height: 200px;
+  }
+
+  .dual-color{
+    height: 50vh;
+  }

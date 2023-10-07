@@ -1,0 +1,23 @@
+.lobo-card {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #2e2e2e; 
+    margin: 10px;
+    width: 800px;
+    color: white;
+    font-size: 15px;
+  }
+
+  .vertical-bar {
+    width: 2px; /* Width of the vertical bar */
+    background-color: #000000; /* Color of the vertical bar */
+    min-height: 100%; /* Make it as tall as the tallest item */
+}
+
+/* If you also need margins around all elements */
+.lobo-card > * {
+    margin: 5px;
+}

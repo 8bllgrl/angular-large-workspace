@@ -1,0 +1,71 @@
+.header-container {
+    position: fixed;  /* This makes it fixed at the top */
+    top: 0;           /* 0px from the top */
+    left: 0;          /* 0px from the left */
+    width: 100vw;      /* Full width of the viewport */
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;     /* Make sure it's on top of other content */
+  }
+  
+  
+  .menu-icon {
+    font-size: 24px;
+    margin-right: 20px;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+  }
+  
+  .logo {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+  }
+  
+  .logo-text {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .search-user-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .search-input {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .search-button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #f8f9fa;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+  .user-menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-icon {
+    margin-left: 8px;
+    margin-right: 15px;
+  }
+  

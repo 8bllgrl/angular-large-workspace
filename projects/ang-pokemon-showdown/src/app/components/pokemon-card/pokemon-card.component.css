@@ -1,0 +1,32 @@
+/* .pokemon-card {
+    /* Add styles for the card wrapper */
+    /* width: 500px; */
+/* } */
+
+.pokemon-card {
+    width: 800px;
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .card-content {
+    display: flex;
+  }
+  
+  .card-actions button {
+    margin-right: 5px;
+  }
+  
+
+@media (max-width: 600px) {
+    .pokemon-card {
+        width: 100%;
+    }
+}

@@ -1,0 +1,52 @@
+.bar-wrapper {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: row; /* Changed from column to row */
+    margin-right: 10px;
+  }
+  
+  .plus-button, .minus-button {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-bottom: 2px;
+  }
+  
+  .minus-button {
+    background-color: red;
+  }
+  
+  .outer-bar {
+    width: 100px;
+    height: 20px;
+    /* border: 1px solid #ccc; */
+    border-radius: 10px;
+    background-color: #353535;
+    margin-right: 10px;
+  }
+  
+  .inner-bar {
+    height: 100%;
+    border-radius: 9px;
+    background: linear-gradient(to top, rgba(255,255,255,0.1), rgba(0,0,0,0.1));
+    transition: width 0.1s ease-out; /* This line adds the animation */
+  }
+  
+  .level {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .letter {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  

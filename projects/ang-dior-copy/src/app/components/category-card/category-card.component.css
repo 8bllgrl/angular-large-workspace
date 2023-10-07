@@ -1,0 +1,51 @@
+/* .category-card {
+    width: 50vw; 
+
+    background-size: cover;
+    position: relative;
+    margin: 20px;
+  } */
+  
+  .category-card {
+    width: 50vw; 
+    height: 80vh;
+    background-size: cover;
+    background-position: center; /* Center the background image */
+    position: relative;
+    /* margin: 20px; */
+  }
+  
+  
+  /* .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
+  .overlay {
+    /* background: radial-gradient(circle, rgba(255, 255, 255, 0.014) 0%, rgba(0, 0, 0, 0.137) 100%); */
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .category-text {
+    font-size: 48px; /* Increase the font size */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    color: white;
+    text-align: center;
+    font-weight: 300; /* Make the text lighter */
+    letter-spacing: 2px; /* Add letter spacing */
+  }
+  

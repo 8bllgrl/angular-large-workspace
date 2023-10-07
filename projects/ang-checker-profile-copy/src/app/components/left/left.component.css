@@ -1,0 +1,27 @@
+.left-section {
+    display: flex;
+    flex-direction: column; /* This will stack the children on top of each other */
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: #333;
+    height: 100%;
+    width:50vw;
+    display: flex;
+    background-color: #222; /* Darker background */
+    height: 100%;
+    /* padding: 40px; More padding */
+}
+
+.image-section {
+    border-radius: 8px;
+    width: 100%; /* Or a specified width, e.g., 300px */
+    height: 200px; /* Make sure you define a height for the container */
+    overflow: hidden; /* To ensure the border-radius applies to the image too */
+}
+
+.image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px; /* This is optional if overflow: hidden; on the parent takes care of it */
+}

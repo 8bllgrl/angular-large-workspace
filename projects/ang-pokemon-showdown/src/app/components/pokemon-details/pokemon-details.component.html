@@ -1,0 +1,31 @@
+<div class="pokemon-details">
+    <img src="path_to_amoonguss_image" alt="Amoonguss" class="pokemon-image">
+    <div class="detail-item">
+        <label>Level:</label>
+        <span>{{ pokemon.level }}</span>
+    </div>
+    <div class="detail-item">
+        <label>Gender:</label>
+        <span>{{ pokemon.gender }}</span>
+    </div>
+    <div class="detail-item">
+        <label>Shiny:</label>
+        <span>{{ pokemon.shiny ? 'Yes' : 'No' }}</span>
+    </div>
+    <div class="detail-item">
+        <label>Item:</label>
+        <input type="text" [(ngModel)]="pokemon.item" />
+    </div>
+    <div class="detail-item">
+        <label>Ability:</label>
+        <input type="text" [(ngModel)]="pokemon.ability" />
+    </div>
+    <div class="detail-item">
+        <label>Type:</label>
+        <span>{{ pokemon.type }}</span>
+    </div>
+    <div class="detail-item">
+        <label>Pokemon:</label>
+        <input type="text" [(ngModel)]="pokemon.name" />
+    </div>
+</div>

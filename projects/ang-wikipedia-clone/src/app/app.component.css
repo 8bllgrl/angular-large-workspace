@@ -1,0 +1,35 @@
+/* Header Styles */
+app-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999; /* Ensures the header stays on top of other elements */
+  }
+  
+  /* Content Wrapper Styles */
+  .content-wrapper {
+    display: flex;
+    padding-top: 60px; /* You might need to adjust this based on the height of your header */
+  }
+  
+  /* Left Sidebar Styles */
+  .left-sidebar {
+    flex: 1;
+  }
+  
+  /* Main Content Area Styles */
+  .article-content {
+    flex: 2; /* This means it takes twice the space compared to the sidebars */
+  }
+  
+  /* Right Sidebar Styles */
+  .right-sidebar {
+    flex: 1;
+  }
+  
+  /* Footer Styles */
+  app-footer {
+    /* Add styles for footer */
+  }
+  

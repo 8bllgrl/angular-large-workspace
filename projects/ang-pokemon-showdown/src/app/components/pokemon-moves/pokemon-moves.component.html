@@ -1,0 +1,6 @@
+<div class="pokemon-moves">
+    <div class="move" *ngFor="let move of moves; let i = index">
+        <label>Move {{ i + 1 }}:</label>
+        <input type="text" [(ngModel)]="moves[i]" />
+    </div>
+</div>

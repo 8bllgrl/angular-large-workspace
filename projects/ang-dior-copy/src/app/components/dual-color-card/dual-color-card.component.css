@@ -1,0 +1,4 @@
+.container {
+  display: flex; /* Add this line to ensure that the flex layout is used */
+  height: 85vh; /* You can adjust this height */
+}

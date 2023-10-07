@@ -1,0 +1,24 @@
+<div class="profile-container">
+    <div class="background-image" [style.background-image]="'url(' + profile.bannerImage + ')'"></div>
+</div>
+
+<div class="profile-content">
+    <img src={{profile.profilePicture}} alt="User Avatar" class="user-avatar">
+    <div class="text-wrapper">
+        <h2 class="user-name">{{profile.username}} </h2>
+        <p class="user-details">{{profile.description}} </p>
+    </div>
+</div>
+
+<!-- <div class="profile-container">
+    <div class="background-image" [style.background-image]="'url(' + profile?.bannerImage + ')'"></div>
+</div>
+
+<div class="profile-content">
+    <img [src]="profile?.profilePicture" alt="User Avatar" class="user-avatar">
+    <div class="text-wrapper">
+        <h2 class="user-name">{{ profile?.username }}</h2>
+
+        <p class="user-details">12 followers | 4 following</p>
+    </div>
+</div> -->

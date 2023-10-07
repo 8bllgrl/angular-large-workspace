@@ -1,0 +1,65 @@
+.carousel-container {
+    perspective: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 100px 0;
+}
+
+.carousel-slide {
+    transform-style: preserve-3d;
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    background: #fff;
+    border: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.carousel-item {
+    font-size: 24px;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:nth-child(2) {
+    left: -60px;
+}
+
+button:nth-child(3) {
+    right: -60px;
+}
+
+:host {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button.btn-prev {
+    top: 200px;
+    left: -60px;
+}
+
+button.btn-next {
+    top: 200px;
+    right: -60px;
+}

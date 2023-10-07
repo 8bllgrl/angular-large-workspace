@@ -1,0 +1,13 @@
+/* article-section/article-section.component.css */
+/* .information-box {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin: 15px 0;
+}
+ */
+
+/* article.component.css */
+
+:host {
+    color: black;
+}

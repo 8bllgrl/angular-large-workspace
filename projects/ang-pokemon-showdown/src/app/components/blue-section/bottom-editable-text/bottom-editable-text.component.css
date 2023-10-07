@@ -1,0 +1,12 @@
+.bottom-editable-text {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .editable-text {
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  

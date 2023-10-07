@@ -1,0 +1,22 @@
+.header {
+    display: flex; /* Use Flexbox layout */
+    justify-content: space-between; /* Distribute space between the sections */
+    align-items: center; /* Align items vertically in the center */
+    padding: 5px;
+    padding-bottom: 65px;
+  }
+  
+  .left-section, .right-section {
+    flex: 1; /* This will make the left and right sections take up equal amounts of space */
+  }
+  
+  .center-section {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+  }
+  
+  .logo {
+    height: 55px;
+  }
+  

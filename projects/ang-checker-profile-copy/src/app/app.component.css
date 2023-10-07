@@ -1,0 +1,21 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 50%; /* Make sure it takes full width too */
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    height: 100vh; /* Taking full height of the viewport */
+    width: 70vw;  /* Taking full width of the viewport */
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr; /* Adjust proportions */
+    height: 100vh; /* Using viewport height so it takes full height of the screen */
+    width: 70vw;
+}

@@ -1,0 +1,13 @@
+.social-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.twitter, .instagram, .tumblr {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+}

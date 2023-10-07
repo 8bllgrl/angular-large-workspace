@@ -1,0 +1,17 @@
+.top-section {
+    display: flex;
+    justify-content: space-between; /* Pushes part-left and part-right to the edges */
+    align-items:start; 
+  }
+  
+  .part-left, .part-right {
+    display: flex;
+    flex-direction: column; /* Stacks children vertically */
+    justify-content: flex-end; /* This will push the children elements of .part-right to the right */
+    align-items:flex-end; 
+  }
+  
+  .part-left {
+    flex: 1; /* Takes up available space, pushing part-right to the edge */
+  }
+  

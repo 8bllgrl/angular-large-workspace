@@ -1,0 +1,24 @@
+.section-container {
+    display: flex;
+    justify-content: space-between;
+    /* Pushes left-part and right-part to the edges */
+    align-items: start;
+}
+
+.left-part,
+.right-part {
+    display: flex;
+    flex-direction: column;
+    /* Stacks children vertically */
+}
+
+.left-part {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Horizontally aligns children */
+    justify-content: center;
+    /* Vertically aligns children */
+    padding: 5px;
+}

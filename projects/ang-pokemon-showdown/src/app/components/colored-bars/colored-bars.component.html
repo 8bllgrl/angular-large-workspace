@@ -1,0 +1,12 @@
+<div class="bar-wrapper" *ngFor="let bar of bars">
+    <div class="buttons">
+      <div class="plus-button" (click)="increaseLevel(bar)">+</div>
+      <div class="minus-button" (click)="decreaseLevel(bar)">-</div>
+    </div>
+    <div class="letter">{{bar.letter}}</div>
+    <div class="outer-bar">
+      <div class="inner-bar" [ngStyle]="{'background-color': bar.color, 'width': (bar.level * 20) + '%'}"></div>
+    </div>
+    <div class="level">Level: {{toRoman(bar.level)}}</div>
+  </div>
+  

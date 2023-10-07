@@ -1,0 +1,24 @@
+<!-- article-section/article-section.component.html -->
+article works!
+<div *ngIf="article">
+    <h1>{{ article.title }}</h1>
+    <hr>
+
+    
+    <!-- <div class="information-box" *ngIf="article.informationBox">
+        <h3>{{ article.informationBox.title }}</h3>
+        <ul>
+            <li *ngFor="let prop of article.informationBox.properties">
+                <strong>{{ prop.key }}:</strong> {{ prop.value }}
+            </li>
+        </ul>
+    </div> -->
+
+    <app-information-box [informationBox]="article.informationBox"></app-information-box>      
+
+    <div *ngFor="let section of article.sections">
+        <h2>{{ section.header }}</h2><hr>
+        <h3 *ngIf="section.subheader">{{ section.subheader }}</h3>
+        <p>{{ section.bodyText }}</p>
+    </div>
+</div>

@@ -1,0 +1,10 @@
+<p>information-box works!</p>
+<div class="information-box">
+    <h3>{{ informationBox.title }}</h3>
+    <ul>
+      <li *ngFor="let property of informationBox.properties">
+        • {{ property.key }}: {{ property.value }}
+      </li>
+    </ul>
+  </div>
+  

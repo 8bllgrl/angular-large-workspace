@@ -1,0 +1,14 @@
+.lvl-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .editable-text {
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #ccc;
+    width:100px;
+    margin:5px;
+  }
